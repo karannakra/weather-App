@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+</style>
+    <style>
+    </style>
+    <link href="./css/footer.css" rel="stylesheet" type="text/css">
+    <link href="./css/index.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>weather</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+{{>header}}
+<!-- Modal -->
+    <div class="container" style="position: absolute;left:500px;top: 100px;width: 500px;">
+        <form action="/weather " id="myForm">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder='enter the search value'>
+                <div class="input-group-append">
+                    <button  class="btn btn-success" type="submit">Go</button>
+                </div>
+            </div>
+        </form>
+    </div>
+<div>
+    <!-- daily current weather of famous cities and the current city-->
+</div>
+{{>footer}}
+<script src="./js/app.js"></script>
+</body>
+</html>

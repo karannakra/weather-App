@@ -1,0 +1,32 @@
+@media (min-width: 325px) and (max-width: 550px) {
+    img {
+        width: 200px;
+        position: absolute;
+        left: 10%;
+    }
+
+}
+@media (min-width: 150px) and (max-width: 324px) {
+    img {
+        width: 50px;
+        position: absolute;
+        left: 5%;
+    }
+
+}
+body {
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+img {
+width: 100%;
+}
+.card{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left:35%;
+}
